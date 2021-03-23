@@ -1,0 +1,123 @@
+/*.grid-container{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding:0;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 200px auto;
+}*/
+.menu{
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 300px;
+    background:cornflowerblue;
+    padding: 0;
+    size: 20%;
+    
+
+}
+
+.ulink{
+    justify-self:center;
+   grid-column: 2/4;
+   height:100%;
+   display: grid;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap:5px;
+    justify-items: right;
+    align-items: center;
+    text-align: left;
+    text-transform: none;
+    float: right;
+
+
+}
+li{
+background:none;
+margin:0 5px;
+text-decoration:none;
+float: left;
+
+
+}
+.content{
+    background: blue;
+    background-image: url("bg.jpeg");
+    background-repeat:no-repeat;
+    text-align: center;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding: auto;
+}
+.welcome{ 
+    font-size: 50px;
+    }
+.image{
+background-image: url("rose.jpeg");
+float: right;
+width: 35vw;
+height: 305px;
+background-position: 80%;
+background-size: cover;
+clear:both;
+}
+a{
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+a:hover{
+    color:whitesmoke;
+}
+a:active{
+    color:red;
+}
+.about-me{
+height: 305px;
+float:left;
+width: 63vw;
+color:black;
+background:whitesmoke;
+clear:both;
+}
+
+li {
+    text-decoration: none;
+}
+.main-footer{
+display: grid;
+background-color:cornflowerblue;
+grid-template-rows: auto;
+grid-template-columns: auto auto; 
+padding:0;
+margin: 0;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.media{
+  display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 0;
+    padding: 0;
+    justify-self: center;
+    grid-column: auto;
+    justify-items: right;
+    overflow: auto;
+    
+
+   }
+   .content2{
+       display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto;
+   }
